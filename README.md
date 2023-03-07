@@ -1,6 +1,6 @@
 # DH Test Task
 Terraform configuration for S3 Bucket creation with the AES-Encryption by default.
-Any questions and requests 
+Any questions or requests: vic.ryzhkov@gmail.com
 
 ## Usage
 
@@ -28,7 +28,7 @@ You can use one of the following options:
     ```
     
   * **Option 2** - save environment variables in ```.aws/credentials``` file
-    
+  
     * On Linux/Mac
     ```
     # File: ~/.aws/credentials
@@ -47,8 +47,8 @@ You can use one of the following options:
     AWS_DEFAULT_REGION="YOUR_REGION"    
     ```
 
-### Step 3: Go to project directory and initialize Terraform
-Please replace ```REPO_FOLDER``` with the folder where you clone the repository to during the Step 1.
+### Step 3: Go to the project directory and initialize Terraform
+Note: Please replace ```REPO_FOLDER``` with the folder to which you clone the repository during Step 1.
   ```
   cd REPO_FOLDER/dh-terraform-test
   terraform init
