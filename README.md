@@ -30,7 +30,7 @@ You can use one of the following options:
     
     * On Linux/Mac
     ```
-    # ~/.aws/credentials
+    # File: ~/.aws/credentials
     
     AWS_ACCESS_KEY_ID="YOUR_ACCES_KEY_ID"
     AWS_SECRET_ACCESS_KEY="YOUR_SECRET_ACCESS_KEY"
@@ -39,7 +39,7 @@ You can use one of the following options:
     
     * On Windows
     ```
-    #%USERPROFILE%\.aws\credentials
+    # File: %USERPROFILE%\.aws\credentials
     
     AWS_ACCESS_KEY_ID="YOUR_ACCES_KEY_ID"
     AWS_SECRET_ACCESS_KEY="YOUR_SECRET_ACCESS_KEY"
