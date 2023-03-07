@@ -1,5 +1,6 @@
 # DH Test Task
-Description 
+Terraform configuration for S3 Bucket creation with the AES-Encryption by default.
+Any questions and requests 
 
 ## Usage
 
