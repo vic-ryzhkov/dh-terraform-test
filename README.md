@@ -2,7 +2,15 @@
 Description 
 
 ## Usage
-1. Provide AWS authentication data and region details by one of the following way:
+
+### Step 1: Clone this repo
+  ```
+  git clone https://github.com/vic-ryzhkov/dh-terraform-test.git
+  ```
+
+### Step 2: Provide AWS authentication data and region details
+
+You can use one of the following options:
 
   * **Option 1** - set environment variables explicitly in command line
     * On Linux/Mac
@@ -38,11 +46,16 @@ Description
     AWS_DEFAULT_REGION="YOUR_REGION"    
     ```
 
-2. Init AWS Provider 
+### Step 3: Go to project directory and initialize Terraform
+Please replace ```REPO_FOLDER``` with the folder where you clone the repository to during the Step 1.
+  ```
+  cd REPO_FOLDER/dh-terraform-test
+  terraform init
+  ```
 
-
-3. Run terraform configuration
-```
-  
-```
+### Step 4: Plan and apply terraform configuration
+ ```
+ terraform plan
+ terraform apply
+ ```
 
