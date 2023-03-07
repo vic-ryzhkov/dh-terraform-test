@@ -1,6 +1,5 @@
 # DH Test Task
 Terraform configuration for S3 Bucket creation with the AES-Encryption by default.
-Any questions or requests: vic.ryzhkov@gmail.com
 
 ## Usage
 
@@ -60,3 +59,5 @@ Note: Please replace ```REPO_FOLDER``` with the folder to which you clone the re
  terraform apply
  ```
 
+## Questions
+vic.ryzhkov@gmail.com
